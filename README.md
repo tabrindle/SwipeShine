@@ -13,24 +13,24 @@ Add 'Ext.ux.SwipeShine' to your Ext.application requires array.
 
 Ensure you have your Path set in your loader, above Ext.application
 
-`<code>`
+`<code>
 Ext.Loader.setPath({
     'Ext': 'touch/src',
     'Ext.ux': 'app/ux',
 })
-`<code>`
+<code>`
 
 Add to your list's config:
 
-`<code>`
+`<code>
 plugins: [
-	{
+    {
         xclass: 'Ext.ux.SwipeShine'
     }
 ]
-`<code>`
+<code>`
 
 Demo
 --------
-An [example](http://trevorbrindle.com/SwipeShine "SwipeShine Demo")
+A [SwipeShine Demo](http://trevorbrindle.com/SwipeShine "SwipeShine Demo")
 Coming Soon - 
